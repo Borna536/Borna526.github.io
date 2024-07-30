@@ -1,0 +1,148 @@
+h1 {
+    color: red
+}
+p,li{
+    color:green
+}
+
+li{
+    list-style-type: none;
+}
+.strongspecial {
+    color : orange;
+    font-weight: lighter;
+}
+h2.strongspecial{
+    color: red;
+    font-weight: bolder;
+
+}
+header h1{
+    color: blue;}
+
+a:link{
+    color: pink}
+ a:visited{
+    color:green
+ }
+ a:hover{
+    text-decoration: none;
+ }
+.outer{
+    border:5px solid black
+}
+ .box{
+    padding: 10px;
+    width: calc(90% - 30px);
+    background-color: rebeccapurple;
+    color:white;
+ }
+
+ .boxTwo {
+    margin: 30px;
+    width:100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+ }
+ #daytwothing{
+    color:blue; 
+    margin: 0px;
+ }
+ .parg{
+    border:2px solid rebeccapurple;
+    padding: .5em
+ }
+ .block,li{
+    border: 2px solid blue;
+    padding:.5em;
+    
+ }
+
+ .un{
+    display:flex;
+    list-style:none;
+
+ }
+.block{
+    display:block;
+}
+.p, ul{
+    border:2px solid rebeccapurple;
+}
+.spam, .li{
+    border:2px solid blue;
+}.ul{
+    display: inline-fiex;
+    list-style: none;
+    padding:0;
+}
+
+.inline {
+    display: inline;
+}
+.boxthree{
+    width:350px;
+    height:150px;
+    margin:10px;
+    padding:25px;
+    border:5px solid black;
+    background:linear-gradient(
+        105deg,
+        rgb(255 255 255 / 20%)39%,
+        rgb(51 56 57/100%)96%
+    ) center center / 400px 200px no-repeat,
+    url(cat.jpg) center no-repeat
+    rebeccapurple
+}
+.boxfour{
+    width:350px;
+    height:150px;
+    margin:10px;
+    padding:25px;
+    border:5px solid black;
+    background:linear-gradient(
+        105deg,
+        rgba(255, 0, 0, 0.2)39%,
+        rgb(255, 13, 45)96%
+    ) center center / 400px 200px no-repeat,
+    url() center no-repeat
+    rgb(174, 218, 0)
+}
+
+.boxfive{
+    width:350px;
+    height:150px;
+    margin:10px;
+    padding:25px;
+    border:5px solid rgb(255, 0, 0);
+    background-image: url(cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxsix{
+    width:350px;
+    height:150px;
+    margin:10px;
+    padding:25px;
+    border:5px solid rgb(51, 0, 255);
+    background-image: url(cat.jpg), url(cat.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 10px 20px, top right;
+}
+.boxseven{
+    width:350px;
+    height:150px;
+    margin:10px;
+    padding:25px;
+    border:1px solid black;
+    border-top: 3px solid brown;
+    border-bottom: 20px solid yellow;
+    border-left: 7px solid purple;
+    border-right: 2px solid pink;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
